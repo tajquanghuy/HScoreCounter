@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ScoreCounter</string>
+
+    <string-array name="tennisPoints">
+        <item>0</item>
+        <item>15</item>
+        <item>30</item>
+        <item>40</item>
+        <item>AD</item>
+        <item>W</item>
+    </string-array>
+
+    <string name="product_id">premium</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="restore">Restore</string>
+    <string name="restore_purchases">Restore Purchases</string>
+    <string name="title_activity_buy_coins">BuyCoinsActivity</string>
+
+
+</resources>

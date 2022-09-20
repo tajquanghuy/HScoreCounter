@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1C5C5">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/scoreboard"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_mm_tennis_singles"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginVertical="10dp"
+        android:layout_marginTop="100dp"
+        android:drawableTop="@drawable/ic_tennis_singles"
+        android:text="Tennis Singles"
+        app:layout_constraintBottom_toTopOf="@+id/btn_mm_tennis_doubles"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/btn_mm_tennis_doubles"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginVertical="10dp"
+        android:drawableTop="@drawable/ic_tennis_doubles"
+        android:text="Tennis Doubles"
+        app:layout_constraintBottom_toTopOf="@+id/btn_mm_tennis_history"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_mm_tennis_singles" />
+
+    <Button
+        android:id="@+id/btn_mm_tennis_history"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginVertical="10dp"
+        android:drawableTop="@drawable/ic_tennis_history"
+        android:text="Game History"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_mm_tennis_doubles" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
